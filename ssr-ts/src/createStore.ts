@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-
+//test
 export default function createStore<Shape>(initialState: Shape) {
   let currentState = initialState;
   const listeners = new Set<(state: Shape) => void>();
